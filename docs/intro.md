@@ -1,6 +1,6 @@
 # <i class="far fa-lightbulb"></i></i> Introduction
 ***
-So You Think You Can Build a New Site HUH?
+#### So You Think You Can Build a New Site HUH?
 
 Actually you can! ‘cause Obama says so!
 
@@ -41,8 +41,7 @@ http://devtest11.basementsite.com/demo.html
 New sites are very easy, because there’s nothing to move over from another site. The content in the Info Tab is usually loose. Which is why I have nothing much to say here.
 
 
-Site Takeover!
-
+#### Site Takeover!
 We’ve successfully managed to seduce a dealer that already has site, and now we must takeover there existing site. 
 
 - I would advise that you follow the steps in the ‘Info’ tab 
@@ -62,7 +61,7 @@ We’ve successfully managed to seduce a dealer that already has site, and now w
 
 - The design of the site is all on you! The dealer may request that their site look like the existing site, or that the colors on the site look like their brand color. But the On-boarder will have these requests in the ‘Info’ tab.
 
-Site build reminder.
+#### Site build reminder
 
 Ok I know I said that I wasn’t going to bother with the design part, true! But just a reminder about crucial things you can’t forget:
 
@@ -77,4 +76,4 @@ Ok I know I said that I wasn’t going to bother with the design part, true! But
 Site completion!
 The site is complete and approved. It’s time to turn the site live!
 
-Follow our well written Site Flipping Checklist
+Follow our well written [Site Flipping Checklist](https://bs-production.github.io/web-production-resources/#/checklist)

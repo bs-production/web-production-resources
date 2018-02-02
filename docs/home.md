@@ -22,7 +22,7 @@ In fact, it is gleefully encouraged!
   - Update an existing page by clicking on the page file, then click on the Pencil icon in right corner 
 
 **Removing content** 
-  - It is only ask if you would like to remove content, first please [Submit an Issue](https://github.com/chrisroselli/production-team-resources/issues)  
+  - It is only ask if you would like to remove content, first please [Submit an Issue](https://github.com/bs-production/web-production-resources/issues)  
   - That way the team as a whole can verify that the content in question is no longer of any use or is erroneous
 
 ### The Magic
