@@ -1,6 +1,6 @@
-# <i class="fas fa-cog fa-spin fa-sm"></i> PRODUCTION TEAM RESOURCES 
+# <i class="fas fa-cog fa-spin fa-sm"></i> WEB PRODUCTION RESOURCES 
 ***
-### Welcome to the Production Team Resources <small>(formally front-end guidelines) </small> {docsify-ignore}  
+### Welcome to Web Production Resources <small>(formally front-end guidelines) </small> {docsify-ignore}  
 Here you will find a leaner, meaner library of all our resources. :clap:  
 
 > ## Open Source Policy 
@@ -32,7 +32,7 @@ In fact, it is gleefully encouraged!
 https://www.markdownguide.org/  
 https://dillinger.io/  
 ***
-Click Stella to still find `front-end-guidelines` 
+Click Stella for `front-end-guidelines` 
 
 [![stella](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/stella.png)](https://github.com/bs-production/front-end-guidelines)
 

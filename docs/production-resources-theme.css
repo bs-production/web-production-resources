@@ -82,7 +82,7 @@ html, body{
 body{
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #c8c8c8;
+  color: #f1f1f1;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
   letter-spacing: 0;
@@ -264,7 +264,7 @@ main{
 }
 
 .anchor span{
-  color: #f7f7f7;
+  color: #fff;
 }
 
 .anchor:hover{
@@ -748,7 +748,7 @@ section.cover.has-mask .mask{
 }
 
 body {
-  background-color: #282c34;
+  background-color: #473f3d;
 }
 
 /* sidebar */
@@ -786,8 +786,8 @@ body {
 }
 
 .markdown-section a {
-  color: #65b1ed;
-  color: var(--theme-color, #65b1ed);
+  color: #73aa49;
+  color: var(--theme-color, #73aa49);
   font-weight: 600;
 }
 
@@ -821,6 +821,7 @@ body {
 .markdown-section h5 {
   font-size: 16px;
   font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .markdown-section h6 {
@@ -868,7 +869,7 @@ body {
 }
 
 .markdown-section code {
-  background-color: #000;
+  background-color: #3a2c28;
   border-radius: 2px;
   color: #dd6d76;
   font-family: 'Roboto Mono', Monaco, courier, monospace;
@@ -882,7 +883,7 @@ body {
 .markdown-section pre {
   -moz-osx-font-smoothing: initial;
   -webkit-font-smoothing: initial;
-  background-color: #282828;
+  background-color: #282c34;
   font-family: 'Roboto Mono', Monaco, courier, monospace;
   line-height: 24px;
   line-height: 1.5rem;
@@ -908,7 +909,7 @@ body {
 }
 
 .token.punctuation {
-  color: #525252;
+  color: #bbbbbb;
 }
 
 .token.property {
@@ -916,33 +917,33 @@ body {
 }
 
 .token.tag {
-  color: #2973b7;
+  color: #e06c75;
 }
 
 .token.string {
-  color: #548830;
-  color: var(--theme-color, #548830);
+  color: #98c379;
+  color: var(--theme-color, #98c379);
 }
 
 .token.selector {
-  color: #6679cc;
+  color: #61afef;
 }
 
 .token.attr-name {
-  color: #2973b7;
+  color: #d19a66;
 }
 
 .token.entity, .token.url, .language-css .token.string, .style .token.string {
-  color: #22a2c9;
+  color: #d19a66;
 }
 
 .token.attr-value, .token.control, .token.directive, .token.unit {
-  color: #548830;
-  color: var(--theme-color, #548830);
+  color: #98c379;
+  color: var(--theme-color, #98c379);
 }
 
 .token.keyword {
-  color: #e96900;
+  color: #c678dd;
 }
 
 .token.statement, .token.regex, .token.atrule {
@@ -950,7 +951,7 @@ body {
 }
 
 .token.placeholder, .token.variable {
-  color: #3d8fd1;
+  color: #e06c75;
 }
 
 .token.deleted {
@@ -981,9 +982,9 @@ body {
 .markdown-section pre > code {
   -moz-osx-font-smoothing: initial;
   -webkit-font-smoothing: initial;
-  background-color: #282828;
+  background-color: #282c34;
   border-radius: 2px;
-  color: #657b83;
+  color: #5db6c1;
   display: block;
   font-family: 'Roboto Mono', Monaco, courier, monospace;
   font-size: 12.8px;

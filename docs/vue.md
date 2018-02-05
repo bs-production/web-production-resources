@@ -39,3 +39,19 @@
   }
 </script>
 </script>
+
+***
+### Resources
+[Vue Docs](https://vuejs.org/v2/guide/)  
+[Vuetify - Material Component Framework](https://vuetifyjs.com/)  
+[Buefy - Lightweight UI components for Vue.js based on Bulma](https://buefy.github.io/#/)  
+[VeeValidate - Simple Vuejs Input Validation](http://vee-validate.logaretm.com/)  
+[Nuxt - Universal Vue.js Applications](https://nuxtjs.org/)
+
+### Projects using Vue.js
+[Email Signature Generator](https://github.com/chrisroselli/email-signature-generator)
+
+### Learn Vue.js
+[Laracasts - Learn Vue 2: Step By Step](https://laracasts.com/series/learn-vue-2-step-by-step)  
+
+

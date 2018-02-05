@@ -11,7 +11,7 @@
 - Design
   - [Template Assets](template-assets.md)
   - [Branding Guidelines](branding-guidelines.md)
-  - [Main Messages](main-messages.md)
+  - [Main Message](main-message.md)
   - [Fonts](fonts.md)
 - Code
   - [Code Guidelines](code-guidelines.md)
@@ -19,6 +19,7 @@
   - [Tokens](tokens.md)
   - [JQuery](jquery.md)
   - [Animation](animation.md)
+  <!-- - [Chris' Snippet Shack](chris-snippet-shack.md) -->
   - [Media Files](media-files.md)
   - [Testing](testing.md)
   - [http-to-https](http-to-https.md)
