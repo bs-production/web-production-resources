@@ -7,7 +7,7 @@
 #### Example: http://visionairewindows.com?dev_template=0&cache=0
 
 1.) Replace entire div#cred html with the following:
-```
+``` php
 	<div class="container" id="cred">
 	  <?php
 		$meta = array();
@@ -228,7 +228,7 @@
 #### Example: http://devtest11.basementsite.com/demo/before-after-reveal.html?cache=0
 
 1.) Replace entire php snippet for Before & After with the following:
-```
+``` php
 	
 	<?php
                 $meta = array();
@@ -873,7 +873,7 @@ http://luxurybathkc.basementsite.com/
 
 A little snippet to speed up building a Superwide Main Message. Customize classes/CSS to suit your designs.
 
-``` html
+``` php
     <!-- SAMPLE SNIPPET FROM NOVA THAT YOU WILL REPLACE, lines 54 to 101-->
         <div id="wrapper">
           <div id="container">

@@ -47,7 +47,7 @@ div#app:empty::before{
   z-index: 999999;
 }
 .search {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 0px !important;
   border-bottom: 0px solid #eee !important;
   z-index: 2;
@@ -67,8 +67,8 @@ div#app:empty::before{
 }
 
 .search .search-keyword{
-  color: #548830;
-  color: var(--theme-color, #548830);
+  color: #ff0404;
+  color: var(--theme-color, #ff0404);
   font-style: normal;
   font-weight: 700;
 }
@@ -186,7 +186,7 @@ li input[type=checkbox]{
   /* overflow-y: scroll; */
   padding: 10px 0;
   position: absolute;
-  right: -15px;
+  right: -80px;
   text-align: left;
   top: 100%;
   white-space: nowrap;
@@ -201,19 +201,15 @@ li input[type=checkbox]{
   margin: 8px 14px;
   white-space: nowrap;
 }
-
-
-{
-  display: block;
-  font-size: 18px;
-  margin: 0;
-  padding: 0;
+/* .app-nav li ul a{
+  display:block;
+  font-size:inherit;
+  margin:0;
+  padding:0
 }
-
-
-.active{
-  border-bottom: 0;
-}
+.app-nav li ul a.active{
+  border-bottom:0
+} */
 
 .app-nav li:hover ul{
   display: block;
@@ -367,7 +363,7 @@ main{
   width: 30px;
   width: 300px;
   z-index: 30;
-  bottom: 0;
+  top: 0;
 }
 
 .sidebar-toggle .sidebar-toggle-button:hover{
@@ -810,7 +806,6 @@ body {
   font-size: 24px;
   font-size: 1.5rem;
   margin: 40px 0 9.6px;
-  margin: 40px 0 0.6rem;
 }
 
 .markdown-section h4 {
@@ -1032,5 +1027,5 @@ pre::after {
 input[type='search'] {
   background: #fff;
   border-color: #4f4f4f;
-  color: #c8c8c8;
+  color: #565656;
 }
