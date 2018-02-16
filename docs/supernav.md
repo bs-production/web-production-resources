@@ -123,32 +123,37 @@ echo $superNav->generateSuperMarkup();
 
 
 ### If you need Our Work and About Us 
+
+look at the reviews for example. 
+
 ```php
-<?php
-$superNav = new nav();
-$superNav->superMode = 'top';
-$superNav->superSplitAboutWork = true;
-$superNav->superItems = array(
-    'Services' => array(
-        'target' => 'services'
-    ),
-    'Our Work' => array(
-        'target' => 'work'
-    ),
-    3780 => array(
-        'target' => 'about',
-        'show_about_link' => true
-    ),
-    'Service Area' => array(
-        'target' => 'map',
-    ),
-    'Free Quote' => array(
-        'class' => 'quote',
-        'target' => 'contact'
-    )
-);
-echo $superNav->generateSuperMarkup();
-?>
+		<?php
+    		$superNav = new nav();
+                $superNav->superSplitAboutWork = true;
+                $superNav->superMode = 'top';
+                $superNav->superItems = array(
+                    'Services' => array(
+                        'target' => 'services'
+                    ),
+                    'Reviews' => 159326,
+                    'Our Work' => array(
+                        'target' => 'work'
+                    ),
+                    159322 => array(
+                        'target' => 'about',
+                        'show_about_link' => true
+                    ),
+                    'Service Area' => array(
+                        'target' => 'map',
+                    ),
+                    'Free Quote' => array(
+                        'class' => 'quote',
+                        'target' => 'contact'
+                    )
+                );
+
+                echo $superNav->generateSuperMarkup();
+		?>
 
 ```
 
