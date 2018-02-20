@@ -69,9 +69,6 @@ $(document).ready(function(){
     }
     ?>
 
-<?php
-
-
 <div class="right contact_form page_widget">
 <h3 class="center">Request Your Appointment Now</h3>
     <form action="" method="post" id="contact_form">
@@ -171,9 +168,6 @@ $(document).ready(function(){
         </div>
     </form>
 </div>
-
-<?php } ?>
-
 
 
 <script>
