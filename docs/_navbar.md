@@ -28,6 +28,7 @@
 - Forms 
   - [Submit to Dealer](submit-to-dealer.md)
   - [Submit to Portal](submit-to-portal.md)
+  - [Photo Upload](photo-upload.md)
   - [Custom](custom-forms.md)
 
 - Misc
