@@ -5,7 +5,6 @@
 Here's some code to create a Sticky Navbar.
 
 ```js
-    <script>
     $(document).ready(function() {
       $(window).bind('scroll', function () {
           if ($(window).scrollTop() > 140) { // Match number to height of header
@@ -15,7 +14,6 @@ Here's some code to create a Sticky Navbar.
           }
       });
     });
-    </script>
 ```
 
 Add CSS class to style sheet only.
@@ -27,4 +25,10 @@ Add CSS class to style sheet only.
     top: 0;
     }
 ```
-> ### More to come
+#### Remove Testimonial Title and link for homepage
+```js
+  $( document ).ready(function() {
+  $('.more-assets').hide();
+  $('.widget-title').hide();
+});
+```
