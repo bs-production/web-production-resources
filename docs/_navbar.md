@@ -20,7 +20,7 @@
   - [JQuery](jquery.md)
   - [Animation](animation.md)
   <!-- - [Chris' Snippet Shack](chris-snippet-shack.md) -->
-  - [Media Tags](media.md)
+  - [Media](media.md)
   - [Testing](testing.md)
   - [http-to-https](http-to-https.md)
   - [PHP Snippets](php-snippets.md)
