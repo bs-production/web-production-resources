@@ -1,5 +1,10 @@
 # <i class="fab fa-php"></i> PHP Snippets
 ***
+### SVG
+```php
+         <?php echo file_get_contents("http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg"); ?>
+```
+
 ### Direct Traffic 
 
 ```php
