@@ -1,5 +1,22 @@
 # <i class="far fa-compass"></i> SuperNav
 ***
+
+## Misaligned Dropdown:not(Services)
+
+If your "Our Company" dropdown has lots of links and is misaligned and missing the "short class", try this:
+
+```css
+@media screen and (min-width: 641px){
+    li.has-dropdown.not-click {
+        position: static !important;
+    }
+
+    ul.dropdown.m-menu {
+        left: 0 !important;
+    }
+}
+```
+
 ### Mega Nav Link Columns
 
 In some cases, when your mega nav links dont' flow into nice even columns, try this fix:
