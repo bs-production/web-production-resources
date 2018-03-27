@@ -1,6 +1,21 @@
 # <i class="far fa-compass"></i> SuperNav
 ***
 
+## De-Mega Services Mega Nav
+
+If the Services dropdown has very few links, try this:
+
+Add this JS to borders inside </body>:
+```js
+$('ul#top-nav-list li:first-child .dropdown.m-menu ').addClass('short');
+```
+Add this CSS override:
+```css
+li.has-dropdown.not-click {
+    position: relative !important;
+}
+```
+
 ## Misaligned Dropdown:not(Services)
 
 If your "Our Company" dropdown has lots of links and is misaligned and missing the "short class", try this:
