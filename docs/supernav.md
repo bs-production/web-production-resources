@@ -5,7 +5,7 @@
 
 If the Services dropdown has very few links, try this:
 
-Add this JS to borders inside </body>:
+Add this JS to borders inside ```</body>```:
 ```js
 $('ul#top-nav-list li:first-child .dropdown.m-menu ').addClass('short');
 ```
