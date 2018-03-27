@@ -15,6 +15,7 @@ li.has-dropdown.not-click {
     position: relative !important;
 }
 ```
+example site: https://gutterguardsinpa.com
 
 ## Misaligned Dropdown:not(Services)
 
@@ -31,6 +32,7 @@ If your "Our Company" dropdown has lots of links and is misaligned and missing t
     }
 }
 ```
+example site: https://www.ottawafoundationsupportworks.ca/
 
 ### Mega Nav Link Columns
 
