@@ -32,3 +32,19 @@ Add CSS class to style sheet only.
   $('.widget-title').hide();
 });
 ```
+
+#### Print image
+```html
+<img src="IMAGE-URL" />
+<div class="center">
+  <a href="#" class="button" onclick="printImg('IMAGE-URL')">Print</a>
+</div>
+
+<script>
+function printImg(url) {
+  var win = window.open('');
+  win.document.write('<img src="' + url + '" onload="window.print();window.close()" />');
+  win.focus();
+}
+</script>
+```
