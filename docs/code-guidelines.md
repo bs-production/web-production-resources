@@ -12,10 +12,8 @@ This applies to HTML elements:
 ### HTML Guidelines 
 
 ```html
-    <!--Bad News-->
-    <div class="breakout" style="margin-top:10px;padding:10px">
-
-
+    <!--Link In New Window-->
+    <a href="http://example.com" target="_blank" rel="noopener">Example site</a>
     <!--Good News-->
     <div class="breakout box-space"></div>
 ```
