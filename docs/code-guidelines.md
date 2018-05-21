@@ -21,25 +21,18 @@ This applies to HTML elements:
 ### CSS Guidelines
 
 ```css 
-
-    /* Bad News */
-    #main-column { display: inline; float: left; width: 30em; }
-    
-    /* Good News */
-    #main-column { 
-      display: inline; 
-      float: left; 
-      width: 30em; 
-    }
 ```
 
 ### JS Guidelines 
 
-We have a whole section dedicated to Javascript 
 ```js
     <script>
     //Always comment your JS because it might end up in strange places
     </script>
+```
+
+### Php Guidelines
+```php
 ```
 
 ### Helper Classes
