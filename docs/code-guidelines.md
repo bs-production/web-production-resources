@@ -1,6 +1,6 @@
 # <i class="fas fa-code"></i> Code Guidelines
 ***
-Best practices and guidelines for writing HTML and CSS with approachable formatting, syntax, and more.
+Best practices and guidelines for writing HTML and CSS with approachable formatting, syntax, and more. We need to make sure the person after you can understand what you are doing. 
 
 All code needs to be lowercase.
 
@@ -14,8 +14,6 @@ This applies to HTML elements:
 ```html
     <!--Link In New Window-->
     <a href="http://example.com" target="_blank" rel="noopener">Example site</a>
-    <!--Good News-->
-    <div class="breakout box-space"></div>
 ```
 
 ### CSS Guidelines
