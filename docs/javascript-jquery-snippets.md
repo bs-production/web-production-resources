@@ -48,3 +48,9 @@ function printImg(url) {
 }
 </script>
 ```
+
+
+### Lazy Load Images 
+```js
+
+```
