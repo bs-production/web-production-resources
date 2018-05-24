@@ -24,6 +24,9 @@
 ```txt
 [company] is an independent contractor and is not an affiliate of Owens Corning Roofing and Asphalt, LLC or its affiliated companies. THE PINK PANTHER&trade; &amp; &copy; 1964–2015 Metro-Goldwyn-Mayer Studios Inc. All Rights Reserved.
 ```
+### Inline CSS
+``[[inline_css]] - inlines all the css in the inline tab in the CMS``
+
 
 ### Core V3 
 `[[custom_core_v3]]`
