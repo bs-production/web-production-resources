@@ -12,11 +12,7 @@
 http://codepen.io/siwicki/live/zqyVdX
 
 
-<form action="https://codepen.io/pen/define" method="POST" target="_blank">
-  <input type="hidden" name="data" value='{"title": "New Pen!", "html": "<div>Hello, World!</div>"}'>
-
-  <input type="submit" value="Create New Pen with Prefilled Data">
-</form>
+ 
 
 
 
