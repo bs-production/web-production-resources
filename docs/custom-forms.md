@@ -12,6 +12,14 @@
 http://codepen.io/siwicki/live/zqyVdX
 
 
+<form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{"title": "New Pen!", "html": "<div>Hello, World!</div>"}'>
+
+  <input type="submit" value="Create New Pen with Prefilled Data">
+</form>
+
+
+
 For your form you need to prefix your `input` names with `form_logger_`  
 Example: `name="form_logger_input-name"`
 
