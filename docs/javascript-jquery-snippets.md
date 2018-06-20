@@ -1,5 +1,29 @@
 # <i class="fab fa-js-square"></i> Javascript & Jquery Snippets
 ***
+
+#### Scroll to snippets
+
+This one will gently slide to an anchor link on a page
+
+```js
+                $('.send-me-to-here').click(function(e) { 
+                	e.preventDefault(); var dest = $(this).attr('href'); console.log(dest); $('html,body').animate({ scrollTop: $(dest).offset().top -25 }, 'slow'); 
+                	$('.send-me').fadeOut( 500 );
+                });
+```
+
+This one will fade in an element on scroll UP - Opposite action of the scroll to on our sites
+
+```js
+$(window).scroll(function(){ 
+    if ($(this).scrollTop() < 500) {
+        $('.send-me').show();
+    } else  {
+        $('.send-me').hide();
+    }
+})
+```
+
 #### Sticky Navbar
 
 Here's some code to create a Sticky Navbar.
