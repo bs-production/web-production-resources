@@ -6,10 +6,10 @@
 This one will gently slide to an anchor link on a page
 
 ```js
-                $('.send-me-to-here').click(function(e) { 
-                	e.preventDefault(); var dest = $(this).attr('href'); console.log(dest); $('html,body').animate({ scrollTop: $(dest).offset().top -25 }, 'slow'); 
-                	$('.send-me').fadeOut( 500 );
-                });
+$('.send-me-to-here').click(function(e) { 
+  e.preventDefault(); var dest = $(this).attr('href'); console.log(dest); $('html,body').animate({ scrollTop: $(dest).offset().top -25 }, 'slow'); 
+  $('.send-me-to-here').fadeOut( 500 );
+});
 ```
 
 This one will fade in an element on scroll UP - Opposite action of the scroll to on our sites
