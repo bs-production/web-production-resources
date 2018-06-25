@@ -1,7 +1,7 @@
 # Web Production Resources
 [Live App](https://bs-production.github.io/web-production-resources/)
 ***
-### Welcome to Web Production Resources <small>(formally front-end guidelines) </small> {docsify-ignore}  
+### Welcome to Web Production Resources <small>(formally front-end guidelines) </small>
 Here you will find a leaner, meaner library of all our resources. :clap:  
 
 > ## Open Source Policy 
