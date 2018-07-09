@@ -2,6 +2,206 @@
 ***
 ### [Template Guide](http://devtest11.basementsite.com/demo/style-guide/new-template-guide.html)
 
+### Fixed Contact Footer for Mobile
+#### Add a fixed footer for a more convenient way to access phone and form on mobile devices
+#### Example: http://innovativebasementsystems.com
+
+```html
+<!-- Service Area / Phone / Quote -->
+<div class="row" id="fixed-contact">
+    <div class="columns area-btn">
+	<a href="/service-area.html">
+	    <i class="fa fa-map-marker" aria-hidden="true"></i>
+	    <span>Service Area</span>
+	</a>
+    </div>
+    <div class="columns phone-btn">
+	<a title="[[company]]" href="tel:<?php echo $phonenumber; ?>">
+	    <i class="fa fa-phone" aria-hidden="true"></i>
+	</a>
+    </div>
+    <div class="columns quote-btn">
+	<a href="/free-estimate.html">
+	    <i class="fa fa-file-text" aria-hidden="true"></i>
+	    <span>Free Quote</span>
+	</a>
+    </div>
+</div>
+```
+
+OR - If the site uses APEX LIVE CHAT PLUGIN use this:
+```html
+<!-- This version includes Live Chat / Phone / Quote -->
+
+<div class="row" id="fixed-contact">
+	<div class="columns chat-btn">
+		<a href="">
+			<i class="fa fa-comment" aria-hidden="true"></i>
+			<span>Live Chat</span>
+		</a>
+	</div>
+	<div class="columns phone-btn">
+		<a title="[[company]]" href="tel:<?php echo $phonenumber; ?>">
+			<i class="fa fa-phone" aria-hidden="true"></i>
+		</a>
+	</div>
+	<div class="columns quote-btn">
+		<a href="/free-estimate.html">
+			<i class="fa fa-file-text" aria-hidden="true"></i>
+			<span>Free Quote</span>
+		</a>
+	</div>
+</div>
+```
+Add this CSS:
+```css
+#fixed-contact {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    height: 65px;
+    text-align: center;
+    background: #666;
+    border-top: 1px solid #fff;
+    box-shadow: 0 -5px 20px rgba(0,0,0,.35);
+}
+#fixed-contact .columns {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    float: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    padding: 0;
+}
+#fixed-contact .columns:not(.phone-btn){
+    width: 30%;
+}
+#fixed-contact a {
+    line-height: 100%;
+}
+#fixed-contact a span {
+    font-size: 13px;
+    color: #ddd;
+    padding-top: 3px;
+    display: block;
+}
+#fixed-contact a i {
+    font-size: 24px;
+    display: block;
+    color: #fff;
+}
+#fixed-contact .columns.phone-btn {
+    left: 50%;
+}
+#fixed-contact .columns.chat-btn,
+#fixed-contact .columns.area-btn {
+    left: calc(50% - 95px);
+}
+#fixed-contact .columns.quote-btn {
+    left: calc(50% + 95px);
+}
+#fixed-contact .phone-btn a {
+    display: block;
+    border-radius: 50%;
+    background: #ddd;
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    position: relative;
+    font-size: 42px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.25);
+}
+
+#fixed-contact .phone-btn a i {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 40px;
+    color: #666;
+}
+@media screen and (max-width: 640px){
+    #fixed-contact {
+        display: block;
+    }
+/*** Overrides for Apex Chat on mobile ***/
+/*** Delete if not using Apex Chat ***/
+    .livechat_body,
+    .livechat_poweredby  {
+        display: none !important;
+    }
+    .livechat_inner.apexchat_chevronstyle_dom_livechat_inner {
+        overflow: visible !important;
+        background-color: transparent !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+    div#apexchat_invitation_container_wrapper,
+    div#apexchat_invitation_container_minimized_wrapper
+     {
+        overflow: visible !important;
+        background-color: transparent !important;
+        right: auto !important;
+        width: 30% !important;
+        transform: translateX(-50%) !important;
+        left: calc(50% - 105px) !important;
+    }
+    .livechat .livechat_inner {
+        background-color: transparent !important;
+        background: none !important;
+        overflow: visible !important;
+        box-shadow: none !important;
+    }
+    .livechat .livechat_start_inner {
+        background: transparent !important;
+        border: 0 !important;
+        padding: 0 !important;
+    }
+    .livechat_start .livechat_start_icon {
+        background: none !important;
+        margin: 0px auto !important;
+        text-align: center !important;
+        position: relative !important;
+        overflow: visible !important;
+        height: 23px !important;
+        width: 30px !important;
+        display: block !important;
+    }
+    .livechat_start .livechat_start_icon::before {
+        content: "\f075" !important;
+        display: block !important;
+        color: #666 !important;
+        font-family: fontAwesome !important;
+        margin: auto !important;
+        text-align: center !important;
+        font-size: 24px !important;
+        height: auto !important;
+    }
+    .livechat_start .livechat_start_text {
+        margin: 0 !important;
+        text-align: center !important;
+        font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
+        font-size: 13px !important;
+    }
+    .livechat_start {
+        top: -35px !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+        width: 100% !important;
+    }
+    .livechat {
+        width: 100% !important;
+    }
+    /*** End Apex Chat Overrides ***/
+}
+
+```
+
+
 ### Optional Affiliations Slider
 #### Best used if dealer wants it or has a lot of affiliations
 #### Example: http://visionairewindows.com?dev_template=0&cache=0
