@@ -1,6 +1,9 @@
 # <i class="fas fa-puzzle-piece"></i> Template Assets
 ***
 ### [Template Guide](http://devtest11.basementsite.com/demo/style-guide/new-template-guide.html)
+### [Widget Guide](http://devtest11.basementsite.com/demo/style-guide/new-widget-guide.html)
+### [Services Design Library](http://devtest11.basementsite.com/demo/style-guide/services-library.html)
+
 
 ### Fixed Contact Footer for Mobile
 #### Add a fixed footer for a more convenient way to access phone and form on mobile devices
