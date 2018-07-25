@@ -12,6 +12,26 @@ The audio and video html 5 tag has support from IE 9 and up and really good supp
 
 Please make sure all of the videos you embed are .mp4 before uploading them in the CMS. 
 
+#### Responsive YouTube CSS
+``` html
+<div class="video-responsive">[yt_embed_code]</div>
+```
+```css
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+```
+
 #### Show controls on mouseOver
 
 ``` html
