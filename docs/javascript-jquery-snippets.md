@@ -1,7 +1,7 @@
 # <i class="fab fa-js-square"></i> Javascript Snippets
 ***
 
-#### Scroll to snippets
+### Scroll to snippets
 
 This one will gently slide to an anchor link on a page
 
@@ -24,7 +24,7 @@ $(window).scroll(function(){
 })
 ```
 
-#### Sticky Navbar
+### Sticky Navbar
 
 Here's some code to create a Sticky Navbar.
 
@@ -49,7 +49,7 @@ Add CSS class to style sheet only.
     top: 0;
     }
 ```
-#### Remove Testimonial Title and link for homepage
+### Remove Testimonial Title and link for homepage
 ```js
   $( document ).ready(function() {
   $('.more-assets').hide();
@@ -57,7 +57,7 @@ Add CSS class to style sheet only.
 });
 ```
 
-#### Print image
+### Print image
 ```html
 <img src="IMAGE-URL" />
 <div class="center">
