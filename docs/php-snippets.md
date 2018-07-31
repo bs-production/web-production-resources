@@ -168,7 +168,7 @@ Then in portal you are going to add the label (e.g. crm_label) you want on the l
 print_r($_SESSION['client_geo_data']);
 ```
 
-### Post Data Somwhere else
+### Send Data 
 ```php
 $data = array(
         'firstname'  => $_POST[''],
