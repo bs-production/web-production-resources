@@ -168,6 +168,33 @@ Then in portal you are going to add the label (e.g. crm_label) you want on the l
 print_r($_SESSION['client_geo_data']);
 ```
 
+### Post Data Somwhere else
+```php
+$data = array(
+        'firstname'  => $_POST[''],
+        'lastname' => $_POST[''],
+        'phone1' => $_POST[''],
+        'email1' => $_POST[''],
+        'streetaddress' => $_POST[''],
+        'city' => $_POST[''],
+        'state' => $_POST[''],
+        'zip' => $_POST[''],
+        'source' => ' $_POST['']',
+        'sourcetype' => ''
+    );
+    $serialize = http_build_query($data);
+    $request = curl_init('url goes here');
+    curl_setopt($request, CURLOPT_POST, 1);
+    curl_setopt($request, CURLOPT_POSTFIELDS, $serialize);
+    curl_setopt($request, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($request, CURLOPT_SSL_VERIFYPEER, false);
+    $response = curl_exec($request);
+    
+
+    
+    curl_close($request);
+```
+
 ### Misc
 #### If top-level page and silo are not equal
 ```php
