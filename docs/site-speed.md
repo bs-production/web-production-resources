@@ -1,5 +1,9 @@
 # Site Speed 
 
+
+Add these to your header just before </head> 
+
+
 ```html
              <!--Preconnect Common -->
             <link rel="preconnect" href="https://maps.googleapis.com">
