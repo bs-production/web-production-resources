@@ -1,4 +1,4 @@
-# <i class="fab fa-js-square"></i> Javascript & Jquery Snippets
+# <i class="fab fa-js-square"></i> Javascript Snippets
 ***
 
 #### Scroll to snippets
