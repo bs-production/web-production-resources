@@ -1,4 +1,4 @@
-# <i class="far fa-check-square"></i> Site Checklist
+# <i class="far fa-check-square"></i> New Site Checklist
 ***
 ### Backup
 - [ ] Backup old site
