@@ -201,3 +201,8 @@ $data = array(
 if (!strstr($thePage,'service-area') and !strstr($thePage,'basement-finishing') and !strstr($thePage,'sunroom')) {
 }
 ```
+
+
+
+<iframe height='300' scrolling='no' title='SVG Hotspot/Play button animation' src='//codepen.io/siwicki/embed/EEVPWo/?height=300&theme-id=17398&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/siwicki/pen/EEVPWo/'>SVG Hotspot/Play button animation</a> by John Siwicki (<a href='https://codepen.io/siwicki'>@siwicki</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
