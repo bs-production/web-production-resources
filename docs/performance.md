@@ -49,3 +49,26 @@ If the image is decorative and does not convey any information to the surroundin
 <img src="http://0a7fabe38ae1ce229b14-5c67249f93bb503413209d779c0cd266.r58.cf1.rackcdn.com/7.png" role="presentation">
 ```
 
+
+
+
+## Site Speed Optimzations
+
+
+Add these to your header just before ```</head> ``` Lighthouse can tell you which ones. 
+
+
+```html
+             <!--Preconnect Common -->
+            <link rel="preconnect" href="https://maps.googleapis.com">
+            <link rel="preconnect" href="https://use.typekit.net">
+              <!--Preconnect Site Level -->
+            <link rel="preconnect" href="https://pixel.dsp.townsquaremedia.com">
+            <link rel="preconnect" href="https://pixel.sitescout.com">
+ ```
+
+
+## Images
+1) Make sure everything is compressed 
+2) If It is below Main Message change image to ```<img data-src="test.jpg">```
+
