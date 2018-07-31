@@ -1,7 +1,6 @@
 - Build
   - [Intro](intro.md)
   - [Templates](templates.md)
-  - [Checklist](checklist.md)
   - [Widget Guide](widget-guide.md)
   - [Google Analytics](google-analytics.md)
   - [Backups/Redirects](backups-redirects.md)
@@ -30,7 +29,8 @@
   - [Submit to Portal](submit-to-portal.md)
   - [Photo Upload](photo-upload.md)
   - [Custom](custom-forms.md)
-
+- Checklist 
+  - [New Site Checklist](checklist.md)
 - Misc
   - [Cgo](cgo.md) 
   - [BBB Seal Code](bbb-seal-code.md)
