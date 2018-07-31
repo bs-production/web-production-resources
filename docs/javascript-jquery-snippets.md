@@ -74,7 +74,6 @@ function printImg(url) {
 ```
 
 
-### Lazy Load Images 
-```js
-
-```
+### Custom Video Player 
+<iframe height='300' scrolling='no' title='Custom Video Player' src='//codepen.io/siwicki/embed/zPMezw/?height=300&theme-id=17398&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/siwicki/pen/zPMezw/'>Custom Video Player</a> by John Siwicki (<a href='https://codepen.io/siwicki'>@siwicki</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
