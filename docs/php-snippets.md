@@ -162,6 +162,12 @@ Then in portal you are going to add the label (e.g. crm_label) you want on the l
       ?>
 ```
 
+
+### Geo Date
+```php
+print_r($_SESSION['client_geo_data']);
+```
+
 ### Misc
 #### If top-level page and silo are not equal
 ```php
