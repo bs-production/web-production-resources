@@ -2,15 +2,22 @@
 ***
 
 ## Global Edits
+
+
+## Desktop 
+- [ ] Desktop Chrome
+- [ ] Desktop Mozilla FireFox
+- [ ] Desktop I.E.
+
+## Mobile Checks
 - [ ] Mobile Responsive
 - [ ] Mobile actual phone
 - [ ] Tablet Inspect
 - [ ] Tablet Responsive
 - [ ] Actual Tablet on Safari
 - [ ] Actual Tablet
-- [ ] Desktop Chrome
-- [ ] Desktop Mozilla FireFox
-- [ ] Desktop I.E.
+
+## HTTPS 
 - [ ] Make sure site is secure, if lock not there inspect red/yellow
 
 ## Phone Numbers
@@ -20,15 +27,14 @@
 - [ ] Fill out Test Lead
 - [ ] Check the from field in the mail
 
-## Phone Numbers
-- [ ] 4
-
 ## Links 
 - [ ] Are there any URL forwarding urls?
 - [ ] Google Redirects
 - [ ] Check that any landing pages are live.
 - [ ] Use both link checkers for broken links
 
+
+## 
 <div id="logform">
     <form method="POST" action="https://wt-ad210117ae0763755b5eff02713bca3c-0.sandbox.auth0-extend.com/checklist-log">
     <h3>Details</h3>
