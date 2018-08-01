@@ -43,6 +43,6 @@
       </label>
       </div>
     </div>
-    <input type="submit" name="submit"> 
+    <input   type="submit" name="save" value="Send"> 
  </form>
 </div>
