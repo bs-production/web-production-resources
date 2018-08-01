@@ -30,7 +30,8 @@ In fact, it is gleefully encouraged!
 
 ### Learn Markdown
 https://www.markdownguide.org/  
-https://dillinger.io/  
+https://dillinger.io/
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ***
 Click Stella for `front-end-guidelines` 
 
