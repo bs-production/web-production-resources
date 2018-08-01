@@ -31,7 +31,7 @@
 
 <div id="logform">
     <form method="POST" action="https://wt-ad210117ae0763755b5eff02713bca3c-0.sandbox.auth0-extend.com/checklist-log">
-    <h3>Did You Finish</h3>
+    <h3>Details</h3>
     <div class="row columns">
       <label>Project
         <input type="text" name="project" id="project">
@@ -43,6 +43,6 @@
       </label>
       </div>
     </div>
-    <input   type="submit" name="save" value="Send"> 
+    <input type="submit" name="save" value="Send"> 
  </form>
 </div>
