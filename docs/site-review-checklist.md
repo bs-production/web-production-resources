@@ -4,12 +4,12 @@
 ## Global Edits
 
 
-## Desktop 
+## Desktop Review
 - [ ] Desktop Chrome
 - [ ] Desktop Mozilla FireFox
 - [ ] Desktop I.E.
 
-## Mobile Checks
+## Mobile Review
 - [ ] Mobile Responsive
 - [ ] Mobile actual phone
 - [ ] Tablet Inspect
@@ -32,6 +32,13 @@
 - [ ] Google Redirects
 - [ ] Check that any landing pages are live.
 - [ ] Use both link checkers for broken links
+
+## Javascript 
+- [ ] If you have jQuery inside page content make sure it loads last
+
+## Images 
+- [ ] Optimze Everything
+- [ ] Lazy Load Below Fold 
 
 
 ## 
