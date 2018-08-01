@@ -1,7 +1,7 @@
 # <i class="far fa-check-square"></i> Project Checklist
 ***
 
-### Global Edits
+## Global Edits
 - [ ] Mobile Responsive
 - [ ] Mobile actual phone
 - [ ] Tablet Inspect
@@ -13,14 +13,14 @@
 - [ ] Desktop I.E.
 - [ ] Make sure site is secure, if lock not there inspect red/yellow
 
-### Phone Numbers
+## Phone Numbers
 - [ ] Check the phone number that comes through in Thank you Email
 
-### Forms
+## Forms
 - [ ] Fill out Test Lead
 - [ ] Check the from field in the mail
 
-### Phone Numbers
+## Phone Numbers
 - [ ] 4
 
 ## Links 
@@ -28,3 +28,23 @@
 - [ ] Google Redirects
 - [ ] Check that any landing pages are live.
 - [ ] Use both link checkers for broken links
+
+
+<form>
+    <h3>Search for Properties</h3>
+    <div class="row columns">
+      <label>Project
+        <input type="text" name="keyword" placeholder="Any">
+      </label>
+    </div>
+    
+   
+    
+      <div class="columns small-6">
+        <input type="number" min="0" name="max" placeholder="Max">
+      </div>
+    </div>
+    <button type="button" class="primary button expanded search-button">
+      Send
+    </button>
+ </form>
