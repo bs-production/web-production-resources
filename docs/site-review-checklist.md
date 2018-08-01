@@ -29,7 +29,7 @@
 - [ ] Check that any landing pages are live.
 - [ ] Use both link checkers for broken links
 
-
+<div id="logform">
     <form action="https://wt-ad210117ae0763755b5eff02713bca3c-0.sandbox.auth0-extend.com/checklist-log">
     <h3>Did You Finish</h3>
     <div class="row columns">
@@ -45,3 +45,4 @@
     </div>
     <input type="submit" name="submit"> 
  </form>
+</div>
