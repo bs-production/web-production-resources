@@ -4,12 +4,10 @@
 ## Global Edits
 
 
-## Desktop Review
+## Layout Check
 - [ ] Desktop Chrome
 - [ ] Desktop Mozilla FireFox
 - [ ] Desktop I.E.
-
-## Mobile Review
 - [ ] Mobile Responsive
 - [ ] Mobile actual phone
 - [ ] Tablet Inspect
@@ -40,6 +38,10 @@
 - [ ] Optimze Everything
 - [ ] Lazy Load Below Fold 
 
+
+## Content 
+
+- [ ] 
 
 ## 
 <div id="logform">
