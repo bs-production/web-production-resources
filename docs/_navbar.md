@@ -18,11 +18,11 @@
   - [Tokens](tokens.md)
   - [JQuery](jquery.md)
   - [Animation](animation.md)
-  <!-- - [Chris' Snippet Shack](chris-snippet-shack.md) -->
   - [Media](media.md)
   - [Testing](testing.md)
   - [CRM Setup](crm.md)
   - [http-to-https](http-to-https.md)
+  - [no-longer-dealer](no-longer-dealer.md)
   - [PHP Snippets](php-snippets.md)
   - [JS/Jquery Snippets](javascript-jquery-snippets.md)
 - Forms 
