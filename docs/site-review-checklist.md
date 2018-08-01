@@ -18,6 +18,10 @@
 ## HTTPS 
 - [ ] Make sure site is secure, if lock not there inspect red/yellow
 
+## Head 
+- [ ] Favicon 
+- [ ] Pretching Results (Check lighthouse for which resources)
+
 ## Phone Numbers
 - [ ] Check the phone number that comes through in Thank you Email
 
@@ -34,14 +38,15 @@
 ## Javascript 
 - [ ] If you have jQuery inside page content make sure it loads last
 
-## Images 
+## Speed 
 - [ ] Optimze Everything
 - [ ] Lazy Load Below Fold 
 
+## SEO 
+- [ ] Images have alt tags
 
 ## Content 
-
-- [ ] 
+- [ ] Content Stuff
 
 ## 
 <div id="logform">
