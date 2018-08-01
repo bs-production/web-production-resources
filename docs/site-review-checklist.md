@@ -34,12 +34,12 @@
     <h3>Did You Finish</h3>
     <div class="row columns">
       <label>Project
-        <input type="text" name="Project" placeholder="Any">
+        <input type="text" name="project" id="project">
       </label>
     </div>
     <div class="columns small-6">
         <label>Date
-        <input type="text" name="Date" placeholder="Any">
+        <input type="text" name="date" id="date">
       </label>
       </div>
     </div>
