@@ -30,21 +30,18 @@
 - [ ] Use both link checkers for broken links
 
 
-<form>
-    <h3>Search for Properties</h3>
+    <form action="https://wt-ad210117ae0763755b5eff02713bca3c-0.sandbox.auth0-extend.com/checklist-log">
+    <h3>Did You Finish</h3>
     <div class="row columns">
       <label>Project
-        <input type="text" name="keyword" placeholder="Any">
+        <input type="text" name="Project" placeholder="Any">
       </label>
     </div>
-    
-   
-    
-      <div class="columns small-6">
-        <input type="number" min="0" name="max" placeholder="Max">
+    <div class="columns small-6">
+        <label>Date
+        <input type="text" name="Date" placeholder="Any">
+      </label>
       </div>
     </div>
-    <button type="button" class="primary button expanded search-button">
-      Send
-    </button>
+    <input type="submit" name="submit"> 
  </form>
