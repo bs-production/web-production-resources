@@ -22,7 +22,7 @@
   - [Testing](testing.md)
   - [CRM Setup](crm.md)
   - [http-to-https](http-to-https.md)
-  - [no-longer-dealer](no-longer-dealer.md)
+  - [No Longer a Dealer](no-longer-dealer.md)
   - [PHP Snippets](php-snippets.md)
   - [JS/Jquery Snippets](javascript-jquery-snippets.md)
 - Forms 
