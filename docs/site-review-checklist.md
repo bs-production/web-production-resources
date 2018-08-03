@@ -45,7 +45,7 @@
 - [ ] Lazy Load Below Fold check page to make sure images flow nicely[link to speed doc]
 
 ## SEO 
-- [ ] Images have alt tags
+- [ ] Images have alt tags (Borders, Homepage)
 
 ## Content 
 - [ ] Content Stuff
