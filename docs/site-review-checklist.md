@@ -5,9 +5,8 @@
 
 
 ## Layout Check
-- [ ] Desktop Chrome
-- [ ] Desktop Mozilla FireFox
-- [ ] Desktop I.E.
+- [ ] Desktop 
+   - Chrome, IE, Edge, Firefox
 - [ ] Mobile Responsive
 - [ ] Mobile actual phone
 - [ ] Tablet Inspect
@@ -20,7 +19,7 @@
 
 ## Head 
 - [ ] Favicon 
-- [ ] Pretching Results (Check lighthouse for which resources)
+- [ ] Preftching Results (Check lighthouse for which resources)
 
 ## Phone Numbers
 - [ ] Check the phone number that comes through in Thank you Email
