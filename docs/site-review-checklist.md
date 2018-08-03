@@ -3,10 +3,12 @@
 
 ## Global Edits
 
-
 ## Layout Check
 - [ ] Desktop 
-   - Chrome, IE, Edge, Firefox
+   - [ ] Chrome
+   - [ ] IE 10.11
+   - [ ] Edge
+   - [ ] Firefox
 - [ ] Mobile Responsive
 - [ ] Mobile actual phone
 - [ ] Tablet Inspect
@@ -25,21 +27,22 @@
 - [ ] Check the phone number that comes through in Thank you Email
 
 ## Forms
-- [ ] Fill out Test Lead
+- [ ] Fill out Test Lead 
+- [ ] Delete The Team
 - [ ] Check the from field in the mail
 
 ## Links 
 - [ ] Are there any URL forwarding urls?
 - [ ] Google Redirects
-- [ ] Check that any landing pages are live.
-- [ ] Use both link checkers for broken links
+- [ ] Check for any landing page for global CSS Changes.
+- [ ] Check CMS Link Checker and Your App of choice [find an app?]
 
 ## Javascript 
-- [ ] If you have jQuery inside page content make sure it loads last
+- [ ] If you have jQuery always run it near </body>
 
 ## Speed 
-- [ ] Optimze Everything
-- [ ] Lazy Load Below Fold 
+- [ ] All images are compressed 
+- [ ] Lazy Load Below Fold check page to make sure images flow nicely[link to speed doc]
 
 ## SEO 
 - [ ] Images have alt tags
