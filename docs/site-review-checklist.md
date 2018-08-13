@@ -17,25 +17,30 @@
 - [ ] Actual Tablet
 
 ## HTTPS 
-- [ ] Make sure site is secure, if lock not there inspect red/yellow
+- [ ] Inspect for Red/Yellow
+- [ ] Portal > Search domain name > Site Management > Other > Enable HTTPS URLs
+- [ ] Make sure box is check
+http://bsiadmin.com/portal/cron/update_cms_css_ssl_urls.php?site_ids= ID from browser's address bar while in Portal/Site Management
+- [ ] http://bsiadmin.com/standalone/dns_page_rules/ > select domain name > Create Page Rules
+- [ ] Site is secure(https)
 
 ## Head 
 - [ ] Favicon 
-- [ ] Preftching Results (Check lighthouse for which resources)
+- [ ] Prefetching Results (Check lighthouse for which resources)
 
 ## Phone Numbers
 - [ ] Check the phone number that comes through in Thank you Email
 
 ## Forms
 - [ ] Fill out Test Lead 
-- [ ] Delete The Team
+- [ ] Delete The Lead
 - [ ] Check the from field in the mail
 
-## Links 
-- [ ] Are there any URL forwarding urls?
-- [ ] Google Redirects
+## Link / Domains
+- [ ] Check all rewrites including any fowarding urls
+- [ ] Check Google site:domain.com
 - [ ] Check for any landing page for global CSS Changes.
-- [ ] Check CMS Link Checker and Your App of choice [find an app?]
+- [ ] Check CMS Link Checker and Your App of choice []
 
 ## Javascript 
 - [ ] If you have jQuery always run it near </body>
@@ -50,21 +55,4 @@
 ## Content 
 - [ ] Content Stuff
 
-## 
-<div id="logform">
-    <form method="POST" action="https://wt-ad210117ae0763755b5eff02713bca3c-0.sandbox.auth0-extend.com/checklist-log">
-    <h3>Details</h3>
-    <div class="row columns">
-      <label>Project
-        <input type="text" name="project" id="project">
-      </label>
-    </div>
-    <div class="columns small-6">
-        <label>Date
-        <input type="text" name="date" id="date">
-      </label>
-      </div>
-    </div>
-    <input type="submit" name="save" value="Send"> 
- </form>
-</div>
+ 
