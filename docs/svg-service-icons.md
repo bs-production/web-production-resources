@@ -103,7 +103,7 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/polylevel.svg
 ```  
-**Concrete Repair**
+**Concrete Repair**  
 ![alt text](https://a80427d48f9b9f165d8d-c913073b3759fb31d6b728a919676eab.ssl.cf1.rackcdn.com/v3/templates/icons/png/concrete-repair.png)
 ```html
 https://a80427d48f9b9f165d8d-c913073b3759fb31d6b728a919676eab.ssl.cf1.rackcdn.com/v3/templates/icons/concrete-repair-circle.svg
@@ -146,7 +146,7 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/wasps.svg
 ``` 
 ## Static PHP Example
-``` html
+``` php
 <div class="medium-6 large-3 columns">
   <div class="srv-box">
     <a href="/basement-waterproofing.html" alt="Basement Waterproofing">
