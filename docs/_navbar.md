@@ -12,6 +12,7 @@
   - [Branding Guidelines](branding-guidelines.md)
   - [Main Message](main-message.md)
   - [Fonts](fonts.md)
+  - [SVG Service Icons](svg-service-icons.md)
 - Code
   - [Code Guidelines](code-guidelines.md)
   - [SuperNav](supernav.md)
