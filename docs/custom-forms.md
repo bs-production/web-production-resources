@@ -68,6 +68,22 @@ Need a little extra Juice for your Free Estimate pages? Note the hidden input as
 ```
 
 
+## Checkboxes
+
+Processing checkboxes can be a pain. This script can add the values to a hidden input to make it easier. 
+
+```html
+  <input type="hidden" name="form_logger_Interested_In" id="interested_in" value="">
+```
+
+```js
+       $('input[type=checkbox]').change(function() {
+         var vals = $('input[type=checkbox]:checked').map(function() { return $(this).val(); }).get().join(',');
+         $('#interested_in').val(vals);
+       });
+
+```
+
 
 ### Send Data To Another Source
 
