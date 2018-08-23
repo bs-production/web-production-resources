@@ -1,4 +1,5 @@
 - Build
+   - [Chries](chris.md)
   - [Intro](intro.md)
   - [Templates](templates.md)
   - [Widget Guide](widget-guide.md)
