@@ -1,5 +1,4 @@
 - Build
-   - [Chries](chris.md)
   - [Intro](intro.md)
   - [Templates](templates.md)
   - [Widget Guide](widget-guide.md)
@@ -9,6 +8,7 @@
   - [Homepage in CMS](homepage-in-cms.md)
   - [Performance](performance.md)
 - Design
+   - [Service Pack Design Library](service-pack.md)
   - [Template Assets](template-assets.md)
   - [Branding Guidelines](branding-guidelines.md)
   - [Main Message](main-message.md)
