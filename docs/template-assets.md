@@ -203,8 +203,89 @@ Add this CSS:
 }
 
 ```
+***
+### Sticky Sidebar Navigation
+#### Sticks the subnav to top when scrolling through content
+#### Example: https://www.sbclandscaping.com/decks-patios.html
 
+1.) Replace the subnav-left styling with the following:
+```css
+#subnav-left {
+    position:relative;
+    padding:50px 0 30px;
+    width:100%;
+}
+.subnav-bg {
+    background:transparent;
+}
+/* set mobile subnav bg styles on subnav-bg class below */
+@media screen and (max-width:640px) {
+    #subnav-left {
+        border-right:0;
+        padding:25px 0.9375rem;
+    }
+    .subnav-bg {
+        background:linear-gradient(#eaeaea 0px, #f8f8f8 15px);
+        border-top:1px solid #e6e6e6;
+    }
+}
+```
+2.) Replace subnav code in borders with the code below.  Note that the "subnav-left" id is moved to a new div within the column. If typing it in manually, don't forget to add the subnav-bg class.  It is used to set the mobile view bg styles on the column div rather than the subnav.
+```html
+<div class="medium-3 medium-pull-9 columns subnav-bg">
+	<div id="subnav-left">
+		[[single_silo_nav]]
+	</div>
+</div>
+```
+3.) Add the magical PHP/JS code before the ```</body>``` tag in Borders.  Remove the comments for production:
+```php
+<!-- Sticky subnav script -->
+<?php if (($thePage != "index") && ($thePage != "service-area") && ($isCityPage == 0) && ($thePage != "free-estimate") && ($thePage != "free-estimate/confirmation"))
+{ ?>
+<script>
+if (window.innerWidth >= 1024) {
 
+    var subnav = document.getElementById("subnav-left");
+    var content = document.getElementById("page-wrap");
+    var sidebar = subnav.parentElement;
+    
+    window.onload = function(){
+	// after page is loaded, sets subnav width to sidebar column width, minus padding: 15px padding per side = 30
+        subnav.style.width = (sidebar.offsetWidth-30) + "px";
+    };
+    window.onresize = function(){
+	// sets width when window is resized
+        subnav.style.width = (sidebar.offsetWidth-30) + "px";
+    };
+    
+    window.onscroll = function() {stickySubnav()};
+	
+    function stickySubnav() {
+	// Change 112 to height of your sticky topnav if different
+	var bottomLimit = (content.offsetTop+content.offsetHeight) - (subnav.offsetHeight+112);
+        // Change 112 to height of your sticky topnav if different
+        if (window.pageYOffset >= (content.offsetTop-112) && ( window.pageYOffset < bottomLimit )) {
+	    // Sticks subnav below sticky topnav when scroll position is within content area
+            subnav.style.position = "fixed";
+            subnav.style.top = "112px";
+        } else if ( window.pageYOffset > bottomLimit ) {
+            // Limit subnav from scrolling below end of content
+            subnav.style.position = "relative"; 
+            subnav.style.top = (content.offsetHeight - subnav.offsetHeight)+"px";
+        } else {
+            // Clear inline style settings for scrolling back to top.  Styles pulled from css again.
+            subnav.style.position = "";
+            subnav.style.top = "";
+        }
+    }
+}
+</script>
+<?php
+}
+?>
+```
+***
 ### Optional Affiliations Slider
 #### Best used if dealer wants it or has a lot of affiliations
 #### Example: http://visionairewindows.com?dev_template=0&cache=0
