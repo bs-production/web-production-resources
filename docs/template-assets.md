@@ -240,9 +240,9 @@ Add this CSS:
 ```
 3.) Add the magical PHP/JS code before the ```</body>``` tag in Borders.  Remove the comments for production:
 ```php
-<!-- Sticky subnav script -->
 <?php if (($thePage != "index") && ($thePage != "service-area") && ($isCityPage == 0) && ($thePage != "free-estimate") && ($thePage != "free-estimate/confirmation"))
 { ?>
+<!-- Sticky subnav script -->
 <script>
 if (window.innerWidth >= 1024) {
 
