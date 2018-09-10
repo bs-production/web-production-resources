@@ -1,5 +1,5 @@
 - Library 
-  - [Service Pack Library](service-pack.md)
+  - [Service Pack](service-pack.md)
 - Build
   - [Intro](intro.md)
   - [Templates](templates.md)
