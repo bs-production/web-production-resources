@@ -36,3 +36,54 @@
 </iframe>
                 </div>
             </div>
+ 
+ ## Icon Overlay 
+ 
+ <div class="template" id="iconOverlay">
+                <p>Reveal a hidden treasure as a service-related icon and description appear on hover.</p>
+                <p><a href="/demo/style-guide/services-library/icon-overlay.html" target="_blank">View Live Demo</a></p>
+                <div class="embed"><p data-height="450" data-theme-id="dark" data-slug-hash="gjYBPd" data-default-tab="css,result" data-user="nlynchbs" data-embed-version="2" data-pen-title="Icon Overlay" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/nlynchbs/pen/gjYBPd/">Icon Overlay</a> by Nicole Lynch (<a href="https://codepen.io/nlynchbs">@nlynchbs</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                </div>
+            </div>
+            
+## Orbital Bliss
+
+<div class="template" id="orbitalBliss">
+                <p>Take a spin on this groovy design featuring circular images and rotating borders.</p>
+                <p><a href="/demo/style-guide/services-library/orbital-bliss.html" target="_blank">View Live Demo</a></p>
+                <div class="embed"><iframe height='300' scrolling='no' title='Orbital' src='//codepen.io/nlynchbs/embed/rrNGxO/?height=300&theme-id=17398&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/nlynchbs/pen/rrNGxO/'>Orbital</a> by Nicole Lynch (<a href='https://codepen.io/nlynchbs'>@nlynchbs</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+                </div>
+            </div>
+
+## Shrinky Dink 
+
+<div class="template" id="shrinkyDink">
+                <p>Now you see it, now you don't. Dazzle the senses with this amazing shrinking icon design.</p>
+                <p><a href="/demo/style-guide/services-library/shrinky-dink.html" target="_blank">View Live Demo</a></p>
+                <div class="embed"><iframe height='300' scrolling='no' title='Shrinky Dink' src='//codepen.io/nlynchbs/embed/WKGoQb/?height=300&theme-id=17398&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/nlynchbs/pen/WKGoQb/'>Shrinky Dink</a> by Nicole Lynch (<a href='https://codepen.io/nlynchbs'>@nlynchbs</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+                </div>
+            </div>
+            
+## The Figueroa Card Flip 
+
+
+<div class="template" id="cardFlip">
+                <p>Photo on the front, text on the back. Flip it, then flip it again. You can't stop, can you?</p>
+                <p><a href="/demo/style-guide/services-library/card-flip.html" target="_blank">View Live Demo</a></p>
+                <div class="embed"><iframe height='300' scrolling='no' title='Card Flip' src='//codepen.io/nlynchbs/embed/MBPNYY/?height=300&theme-id=17398&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/nlynchbs/pen/MBPNYY/'>Card Flip</a> by Nicole Lynch (<a href='https://codepen.io/nlynchbs'>@nlynchbs</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+                </div>
+            </div>
+            
+## Busy Boxes 
+
+
+<div class="template" id="busyBoxes">
+                <p>Boxes that zoom, boxes that slide. There's a lot going on that will surely please even the most stodgy of web users.</p>
+                <p><a href="/demo/style-guide/services-library/busy-boxes.html" target="_blank">View Live Demo</a></p>
+                <div class="embed"><iframe height='300' scrolling='no' title='bxdExz' src='//codepen.io/nlynchbs/embed/bxdExz/?height=300&theme-id=17398&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/nlynchbs/pen/bxdExz/'>bxdExz</a> by Nicole Lynch (<a href='https://codepen.io/nlynchbs'>@nlynchbs</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+                </div>
+            </div>
