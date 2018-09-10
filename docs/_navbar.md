@@ -33,11 +33,9 @@
   - [Submit to Portal](submit-to-portal.md)
   - [Photo Upload](photo-upload.md)
   - [Custom](custom-forms.md)
-- Checklist 
+- Misc
   - [New Site Checklist](checklist.md)
   - [Site Review Checklist](site-review-checklist.md)
-  
-- Misc
   - [Cgo](cgo.md) 
   - [BBB Seal Code](bbb-seal-code.md)
   - [Owens Corning](owens-corning.md)
