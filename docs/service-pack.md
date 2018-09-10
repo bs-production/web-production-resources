@@ -1,5 +1,8 @@
 # Service Pack Design Library
 
+### [Services Design Library (Transfering Content Not Finished)](http://devtest11.basementsite.com/demo/style-guide/services-library.html)
+
+
 ## Bump Out
   <div class="template" id="bumpOut">
                 <p>Ordain your homepage with this bumping mix of iconography and high-quality photography.</p>
