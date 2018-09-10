@@ -1,3 +1,5 @@
+- Library 
+  - [Service Pack Library](service-pack.md)
 - Build
   - [Intro](intro.md)
   - [Templates](templates.md)
@@ -8,7 +10,6 @@
   - [Homepage in CMS](homepage-in-cms.md)
   - [Performance](performance.md)
 - Design
-  - [Service Pack Library](service-pack.md)
   - [Template Assets](template-assets.md)
   - [Branding Guidelines](branding-guidelines.md)
   - [Main Message](main-message.md)
