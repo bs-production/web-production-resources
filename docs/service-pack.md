@@ -1,8 +1,8 @@
 # Service Pack Design Library
 
-
+## Bump Out
   <div class="template" id="bumpOut">
-                <h2>Bump Out</h2>
+              
                 <p>Ordain your homepage with this bumping mix of iconography and high-quality photography.</p>
                 <p><a href="/demo/style-guide/services-library/bump-out.html" target="_blank">View Live Demo</a></p>
                 <div class="embed">
