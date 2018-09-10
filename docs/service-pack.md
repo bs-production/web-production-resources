@@ -27,3 +27,12 @@
 </iframe>
                 </div>
             </div>
+            
+ ## Icon Highlight
+ 
+ <div class="template" id="iconHighlight">
+ <p>This little style transitions to a bright color on hover, making it the highlight of any homepage.</p>
+               <iframe height='300' scrolling='no' title='Icon Highlight' src='//codepen.io/nlynchbs/embed/PBYyqy/?height=300&theme-id=17398&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/nlynchbs/pen/PBYyqy/'>Icon Highlight</a> by Nicole Lynch (<a href='https://codepen.io/nlynchbs'>@nlynchbs</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+                </div>
+            </div>
