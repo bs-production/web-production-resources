@@ -42,7 +42,8 @@
  <div class="template" id="iconOverlay">
                 <p>Reveal a hidden treasure as a service-related icon and description appear on hover.</p>
                 <p><a href="/demo/style-guide/services-library/icon-overlay.html" target="_blank">View Live Demo</a></p>
-                <div class="embed"><p data-height="450" data-theme-id="dark" data-slug-hash="gjYBPd" data-default-tab="css,result" data-user="nlynchbs" data-embed-version="2" data-pen-title="Icon Overlay" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/nlynchbs/pen/gjYBPd/">Icon Overlay</a> by Nicole Lynch (<a href="https://codepen.io/nlynchbs">@nlynchbs</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <div class="embed"><iframe height='300' scrolling='no' title='Icon Overlay' src='//codepen.io/nlynchbs/embed/gjYBPd/?height=300&theme-id=17398&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/nlynchbs/pen/gjYBPd/'>Icon Overlay</a> by Nicole Lynch (<a href='https://codepen.io/nlynchbs'>@nlynchbs</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
                 </div>
             </div>
             
