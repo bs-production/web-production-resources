@@ -1,5 +1,6 @@
 - Library 
   - [Service Pack](service-pack.md)
+  - [Main Messages](main-message-lib.md)
 - Build
   - [Intro](intro.md)
   - [Templates](templates.md)
