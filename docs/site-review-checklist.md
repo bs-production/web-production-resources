@@ -9,12 +9,11 @@
    - [ ] IE 10.11
    - [ ] Edge
    - [ ] Firefox
-- [ ] Mobile Responsive
-- [ ] Mobile actual phone
-- [ ] Tablet Inspect
-- [ ] Tablet Responsive
-- [ ] Actual Tablet on Safari
-- [ ] Actual Tablet
+- [ ] Mobile 
+   - [ ] Chrome
+   - [ ] Safari
+   - [ ] Firefox
+- [ ] Tablet
 
 ## HTTPS 
 - [ ] Inspect for Red/Yellow
