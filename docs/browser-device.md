@@ -2,12 +2,21 @@
 
 https://caniuse.com/#home
 
-# Devices  
-- iPhone SE and up 
-- Galaxy S7 and up 
+
+| Devices  | How To Check|    
+|---|---| 
+| iPhone SE  |   | 
+|  Galaxy S7 |   | 
+|  iPad  |   | 
+
+
+
+| Devices  | How To Check|    
+|---|---| 
+| IE 9  |   | 
+|  IE 11 |   | 
+|  Edge   |   | 
+|  Safari   |   | 
+
+
  
-# Browsers 
-- IE 9
-- IE 11
-- Edge 
-- Safari 
