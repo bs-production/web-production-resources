@@ -1,5 +1,5 @@
 # <i class="far fa-compass"></i> SuperNav
-***
+
 ### superSplitAboutWork 
 
 This snippet will allow you to add top level items to the superNav even with Super Split set to true.
