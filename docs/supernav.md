@@ -6,6 +6,12 @@ This snippet will allow you to add top level items to the superNav even with Sup
 
 ```php
 'superSplitDisplay' => true
+
+//Example
+70032 => array(
+      'grandchildren' => true,
+      'superSplitDisplay' => true
+    ),
 ```
 ## De-Mega Services Mega Nav
 
